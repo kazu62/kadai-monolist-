@@ -23,7 +23,7 @@ class RankingController extends Controller
         ]);
     }
     
-    public function have()
+    public function have    ()
     {
         $items = [];
         if (Item::exists()) {

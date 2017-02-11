@@ -12,3 +12,8 @@
         </div>
     </div>
 @endsection
+
+@section('content')
+    @include('items.items')
+    {!! $items->render() !!}
+@endsection
